@@ -15,6 +15,12 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css"
+	rel="stylesheet">
+<script
+	src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
 </head>
 <body>
 
@@ -34,8 +40,7 @@
 							href="<%=request.getContextPath()%>/user?cmd=updateForm">회원정보</a>
 						</li>
 						<li class="nav-item"><a class="nav-link"
-							href="<%=request.getContextPath()%>/user?cmd=logout">로그아웃</a>
-						</li>
+							href="<%=request.getContextPath()%>/user?cmd=logout">로그아웃</a></li>
 					</ul>
 				</div>
 			</c:when>
